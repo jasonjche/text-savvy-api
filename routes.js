@@ -26,4 +26,9 @@ router.post('/', async (req, res) => {
     }
 });
 
+router.get('/getData', async (req, res) => {
+    dataNames = dummyData.map(item => item.mode);
+    res.json({ dataNames });
+});   
+
 module.exports = router;

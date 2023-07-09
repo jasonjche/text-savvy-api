@@ -1,4 +1,4 @@
-const test = [
+const data = [
     {
       "mode": "Friend",
       "promptScorer": "You are a rater of my text messages to a girl. Rate it on a scale of 1 to 10, and give me a reasoning as to why I got that message. Assume my goal is to become closer with this girl and potentially get in a relationship. Return your examples in a json object with keys 'score' and 'reason'. Do not add any additional commentary besides the json. \n\nExample:\n\nInput:\nPrevious Message: how are you\nMy Message: good, how was your day tho?\n\nOutput:\n{\n\"score\": \"7\",\n\"reason\": \"You were too direct and potentially acting too fast. That previous message maybe wanted you to talk about yourself\"\n}",
@@ -61,4 +61,4 @@ const test = [
     }
   ];
   
-  module.exports = test;
+  module.exports = data;
